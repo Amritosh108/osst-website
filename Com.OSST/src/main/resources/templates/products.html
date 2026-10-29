@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products | OSST</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="/" class="logo">
+        OSST
+        <small>OM SHIV SAI TECHNOLOGY</small>
+    </a>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/products">Products</a>
+        <a href="/about">About Us</a>
+        <a href="/contact">Contact</a>
+    </nav>
+
+    <a href="/contact" class="nav-button">Get a Quote</a>
+</header>
+
+<main>
+    <section class="products-hero">
+        <p class="eyebrow">QUALITY PRODUCTS • RELIABLE SOLUTIONS</p>
+        <h1>Our Products</h1>
+        <p>
+            Explore electronic, electrical and mechanical products
+            for your business and engineering requirements.
+        </p>
+    </section>
+
+    <section class="products-section">
+        <div class="section-heading">
+            <h2>Explore Our Categories</h2>
+            <p>Find the right components for your requirements.</p>
+        </div>
+
+        <div class="category-links">
+            <a href="#electronics">Electronic</a>
+            <a href="#electrical">Electrical</a>
+            <a href="#mechanical">Mechanical</a>
+        </div>
+
+        <div id="electronics" class="product-category">
+            <h2>Electronic Products</h2>
+
+            <div class="product-grid">
+                <article class="product-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=700&q=80"
+                        alt="Electronic circuit board">
+
+                    <div class="product-info">
+                        <span class="product-tag">Electronics</span>
+                        <h3>Electronic Components</h3>
+                        <p>Components for electronic circuits and devices.</p>
+                        <a href="/contact" class="quote-button">
+                            Request a Quote →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=700&q=80"
+                        alt="Industrial technical equipment">
+
+                    <div class="product-info">
+                        <span class="product-tag">Electronics</span>
+                        <h3>Sensors & Modules</h3>
+                        <p>Components for monitoring and control applications.</p>
+                        <a href="/contact" class="quote-button">
+                            Request a Quote →
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div id="electrical" class="product-category">
+            <h2>Electrical Products</h2>
+
+            <div class="product-grid">
+                <article class="product-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=700&q=80"
+                        alt="Electrical installation equipment">
+
+                    <div class="product-info">
+                        <span class="product-tag">Electrical</span>
+                        <h3>Electrical Accessories</h3>
+                        <p>Products for electrical installations and maintenance.</p>
+                        <a href="/contact" class="quote-button">
+                            Request a Quote →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=700&q=80"
+                        alt="Electrical power infrastructure">
+
+                    <div class="product-info">
+                        <span class="product-tag">Electrical</span>
+                        <h3>Power Equipment</h3>
+                        <p>Equipment for electrical power applications.</p>
+                        <a href="/contact" class="quote-button">
+                            Request a Quote →
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div id="mechanical" class="product-category">
+            <h2>Mechanical Products</h2>
+
+            <div class="product-grid">
+                <article class="product-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1581092335397-9fa3411c5aaa?auto=format&fit=crop&w=700&q=80"
+                        alt="Mechanical engineering equipment">
+
+                    <div class="product-info">
+                        <span class="product-tag">Mechanical</span>
+                        <h3>Mechanical Components</h3>
+                        <p>Components for machines and industrial applications.</p>
+                        <a href="/contact" class="quote-button">
+                            Request a Quote →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=700&q=80"
+                        alt="Industrial machinery">
+
+                    <div class="product-info">
+                        <span class="product-tag">Mechanical</span>
+                        <h3>Industrial Equipment</h3>
+                        <p>Equipment for industrial and engineering work.</p>
+                        <a href="/contact" class="quote-button">
+                            Request a Quote →
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="inquiry-banner">
+            <h2>Can't Find the Product You Need?</h2>
+            <p>Tell us your requirements and our team can assist you.</p>
+            <a href="/contact" class="primary-button">
+                Contact OSST →
+            </a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <h2>OSST</h2>
+    <p>OM SHIV SAI TECHNOLOGY</p>
+    <p>Electronics | Electrical | Mechanical</p>
+    <p>© 2026 OSST. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

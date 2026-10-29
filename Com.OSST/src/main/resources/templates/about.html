@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | OSST</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+
+<header class="navbar">
+    <a th:href="@{/}" class="logo">
+        OSST
+        <small>OM SHIV SAI TECHNOLOGY</small>
+    </a>
+
+    <nav>
+        <a th:href="@{/}">Home</a>
+        <a th:href="@{/products}">Products</a>
+        <a th:href="@{/about}">About Us</a>
+        <a th:href="@{/contact}">Contact</a>
+    </nav>
+
+    <a th:href="@{/contact}" class="nav-button">Get a Quote</a>
+</header>
+
+<section class="about-hero">
+    <p class="eyebrow">GET TO KNOW US</p>
+    <h1>About OM SHIV SAI TECHNOLOGY</h1>
+    <p>
+        Your business partner for electronic, electrical,
+        and mechanical products.
+    </p>
+</section>
+
+<section class="about-content">
+    <div class="about-text">
+        <p class="eyebrow">WHO WE ARE</p>
+        <h2>Connecting Businesses with the Right Products</h2>
+        <p>
+            OM SHIV SAI TECHNOLOGY (OSST) aims to help businesses
+            source electronic components, electrical equipment,
+            and mechanical products for their requirements.
+        </p>
+        <p>
+            We focus on understanding customer needs, providing
+            product information, and helping customers request
+            suitable quotations for their projects and operations.
+        </p>
+        <a th:href="@{/products}" class="primary-button">
+            Explore Our Products
+        </a>
+    </div>
+
+    <div class="about-highlight">
+        <h3>Our Mission</h3>
+        <p>
+            To make product sourcing simpler by helping customers
+            find suitable solutions for their business needs.
+        </p>
+
+        <h3>Our Approach</h3>
+        <p>
+            We value clear communication, responsive service,
+            and understanding each customer's requirements.
+        </p>
+    </div>
+</section>
+
+<section class="about-values">
+    <div class="section-heading">
+        <p class="eyebrow">WHY OSST</p>
+        <h2>How We Help Your Business</h2>
+        <p>Practical support for your product sourcing needs.</p>
+    </div>
+
+    <div class="category-grid">
+        <div class="category-card">
+            <div class="category-icon">⚡</div>
+            <h3>Electrical Products</h3>
+            <p>Explore electrical equipment and components for your requirements.</p>
+        </div>
+
+        <div class="category-card">
+            <div class="category-icon">🔌</div>
+            <h3>Electronic Products</h3>
+            <p>Find electronic components and related products for your projects.</p>
+        </div>
+
+        <div class="category-card">
+            <div class="category-icon">⚙️</div>
+            <h3>Mechanical Products</h3>
+            <p>Discover mechanical products and components for industrial applications.</p>
+        </div>
+    </div>
+</section>
+
+<section class="inquiry-banner">
+    <h2>Looking for a Product?</h2>
+    <p>Tell us what your business needs and request a quotation.</p>
+    <a th:href="@{/contact}" class="primary-button">Contact Our Team</a>
+</section>
+
+<footer>
+    <h2>OSST</h2>
+    <p>OM SHIV SAI TECHNOLOGY</p>
+    <p>Electronic | Electrical | Mechanical Products</p>
+    <p>&copy; 2026 OM SHIV SAI TECHNOLOGY. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
